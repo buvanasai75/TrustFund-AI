@@ -1,0 +1,39 @@
+node_modules/
+dist/
+build/
+.env
+uploads/images/*
+!uploads/images/.gitkeep
+uploads/documents/*
+!uploads/documents/.gitkeep
+data/db/*
+!data/db/.gitkeep
+__pycache__/
+*.pyc
+.pytest_cache/
+python_runtime/
+*.log
+.DS_Store
+
+# Environment variables and secrets
+.env*
+!.env.example
+
+# Credentials and private keys
+*.pem
+*.key
+secrets/
+
+# Python virtual environments
+.venv/
+venv/
+
+# IDE and editor files
+.vscode/
+.idea/
+
+
+# Exclude backend user-uploaded files
+backend/uploads/
+
+
